@@ -1,12 +1,14 @@
 import React from 'react'
 import gsap from 'gsap';
-import {navLinks} from "../../constants/index.js";
 import {useGSAP} from "@gsap/react";
+import {navLinks} from "../../constants/index.js";
+
+
 
 const Navbar = () => {
 
   useGSAP(()=>{
-    const nawTween = gsap.timeline({
+    const navTween = gsap.timeline({
       scrollTrigger: {
         trigger:'nav',
         start: 'bottom top',
