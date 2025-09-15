@@ -8,8 +8,8 @@ const App = () => {
   return (
     <main className="App">
       <Navbar />
-      <Hero />
-      <div className="h-dvh bg-black"></div>
+
+
     </main>
   )
 }
