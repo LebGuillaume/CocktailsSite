@@ -3,9 +3,10 @@ import gsap from 'gsap';
 import {ScrollTrigger, SplitText} from "gsap/all";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-import Coktails from "./components/cocktails.jsx";
+import Coktails from "./components/Cocktails.jsx";
 import About from "./components/about.jsx";
 import Art from "./components/Art.jsx";
+import Menu from "./components/Menu.jsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
       <Coktails/>
       <About/>
       <Art/>
-      <div className="h-dvh color-black"></div>
+      <Menu/>
 
     </main>
   )
